@@ -1,0 +1,28 @@
+# Core Packages
+numpy==1.23.5
+pandas==2.2.3
+matplotlib==3.10.0
+scikit-learn==1.6.1
+
+# Time Series Models
+statsmodels==0.14.0
+pmdarima==2.0.4
+prophet==1.1.6
+
+# LLM Integration
+openai==1.70.0
+python-dotenv==1.1.0
+
+# Dependencies
+scipy==1.15.2
+joblib==1.4.2
+cython==3.0.12
+pystan==0.5.1  # Required for Prophet
+holidays==0.69
+tqdm==4.67.1
+
+# Conflict Resolutions
+numba==0.60.0  # Avoids Prophet compatibility issues
+
+# Hardware recommendation:
+# Running with a T4 GPU on Google Colab is recommended for optimal performance.
